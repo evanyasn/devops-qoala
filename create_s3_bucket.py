@@ -8,7 +8,7 @@ try:
         service_name="s3",
         aws_access_key_id="123",
         aws_secret_access_key="123",
-        endpoint_url="http://localhost:4572",
+        endpoint_url="http://localstack:4572",
     )
 
     bucket_test1 = s3_client.create_bucket(Bucket="test1")

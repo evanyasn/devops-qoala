@@ -17,6 +17,7 @@ mypy_boto3 = "*"
 click = "*"
 pyyaml = "*"
 boto3 = "*"
+mypy_boto3 = "*"
 
 [requires]
 python_version = "3.8"
