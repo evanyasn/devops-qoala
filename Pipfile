@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+pre-commit = "*"
+mypy = "*"
+boto3 = "*"
+boto3-stubs = {extras = ["essential", "ecs", "elbv2"],version = "*"}
+mypy_boto3 = "*"
+
+
+[packages]
+click = "*"
+pyyaml = "*"
+boto3 = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
